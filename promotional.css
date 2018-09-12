@@ -1,0 +1,20 @@
+body
+{
+    background-image: url("img/rc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ /*use align-center for top navigation bar */
+
+h1
+{
+    background-color:  linear-gradient(steelblue, yellow) ;
+    color: darkblue;
+    text-align: center;
+}
+img
+{
+    float: right;
+}
+
