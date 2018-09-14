@@ -1,0 +1,25 @@
+body
+ {
+     background-color: lightskyblue;
+
+ }
+
+h1
+{
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}
+p
+{
+    font-size: large;
+    text-align: center;
+    font-family: Arial;
+
+}
+img
+{
+    filter: opacity(80%);
+    border-color: mediumblue;
+    border-style: solid;
+}
