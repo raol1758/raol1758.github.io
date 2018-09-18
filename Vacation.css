@@ -1,0 +1,29 @@
+body
+{
+    background-image: linear-gradient(lightskyblue,orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1
+{
+    color: darkblue;
+    font-style: italic;
+    text-align: center;
+}
+h2
+{
+    color: orangered;
+    font: bold;
+}
+p
+{
+    font-family: Arial;
+}
+img
+{
+    border-color: darkblue;
+    border-style: solid;
+    font-weight: bold;
+}
