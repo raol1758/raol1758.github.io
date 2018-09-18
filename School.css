@@ -1,0 +1,51 @@
+body
+{
+    background-image: linear-gradient(darkorange, darkblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    color: darkblue;
+    border: orangered;
+    font-style: italic;
+    text-align: center;
+    font: bold;
+}
+h3
+{
+    font: bold;
+    text-align: center;
+    color: mediumblue;
+}
+h3
+{
+    color: darkblue;
+}
+table
+{
+    border-color: orange;
+    width: ;
+    background-color: darkblue;
+    color: orange;
+    font: bold;
+}
+h4
+{
+    color: darkorange;
+
+}
+ul
+{
+    color: darkorange;
+}
+th
+{
+    font-size: larger;
+}
+td
+{
+    font-size: large;
+    text-align: center;
+}
