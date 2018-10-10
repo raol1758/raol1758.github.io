@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Mini Projects</title>
+    <script src="MiniProj.js"></script>
+</head>
+<body>
+
+<br><br>
+
+    <form name="project1">
+        <h4>Temperature Bug!!</h4>
+        <br><br><br>
+        Please type a temperature in degrees: <input type="text" name="num1">
+        <br><br><br>
+        <button type="button" onclick="document.project1.result.value=TemperatureBug()">Convert!</button>
+        <br><br><br>
+        <input type="text" readonly="true" name="result" style="border-style: none">
+        <br><br><br>
+        <img id="weather" src(unknown) height="75">
+    </form>
+
+<br><br>
+
+<form name="project2">
+    <h4>Calorie Counter!!</h4>
+    <br><br><br>
+    <h3>Activities to choose from: Bowling, swimming, tennis, and running</h3>
+    <br><br><br>
+    Enter your activity: <select id="activity">
+    <option value="Choose Activity">Choose Activity</option>
+    <option value="Bowling">Bowling</option>
+    <option value="Swimming">Swimming</option>
+    <option value="Tennis">Tennis</option>
+    <option value="running">Running</option>
+</select>
+    <br><br>
+    Time spent performing activity: <input type="text" name="minutes">
+    <br><br>
+    <button type="button" onclick="document.project2.result.value=CalorieCounter()">Convert!</button>
+    <br><br><br>
+    <input name= "result" readonly="true" id="result" style="border-style:none">
+</form>
+
+<br><br>
+
+<form name="project3">
+    <h4>AssignGrade</h4>
+    <br><br><br>
+    Please type a numeric score to convert:<input type="text" name="num1">
+    <br><br><br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Assign!</button>
+    <br>
+    <input type="text" readonly="true" name="result" style="border-style:none">
+</form>
+
+</body>
+</html>
