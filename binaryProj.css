@@ -1,0 +1,24 @@
+body
+{
+    background-image: linear-gradient(lightsteelblue, lightgreen);
+    background-color: darkslateblue;
+}
+
+h1
+{
+    color: darkslategrey;
+}
+h3
+{
+    color: darkslategrey;
+}
+input
+{
+    background-color: mistyrose;
+    color: lightcoral;
+}
+button
+{
+    background-color: lightcoral;
+    color: white;
+}
