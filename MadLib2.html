@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MadLib2</title>
+    <link rel="stylesheet" href="MadLib.css">
+    <script type="text/javascript">
+        var stuff = [];
+
+        function array5()
+        {
+            var input1= document.hi.adjective.value;
+            var input2= document.hi.adjectivee.value;
+            var input3= document.hi.snoun.value;
+            var input4= document.hi.snounn.value;
+            var input5= document.hi.snounnn.value;
+            var input6= document.hi.pbody.value;
+            var input7= document.hi.pbodyy.value;
+            var input8= document.hi.pbodyyy.value;
+            var input9= document.hi.pnoun.value;
+            var input10= document.hi.pnounn.value;
+            var input11= document.hi.pnounnn.value;
+            var input12= document.hi.verb.value;
+            var input13= document.hi.verbb.value;
+            var input14= document.hi.verbing.value;
+            var input15= document.hi.adverb.value;
+            stuff.push(input1);
+            stuff.push(input2);
+            stuff.push(input3);
+            stuff.push(input4);
+            stuff.push(input5);
+            stuff.push(input6);
+            stuff.push(input7);
+            stuff.push(input8);
+            stuff.push(input9);
+            stuff.push(input10);
+            stuff.push(input11);
+            stuff.push(input12);
+            stuff.push(input13);
+            stuff.push(input14);
+            stuff.push(input15);
+
+            return "Most doctors agree that bicycle " + stuff[13].bold() + " is a " + stuff[0].bold() + " form of exercise that benefits " + stuff[8].bold() +
+                " of all ages. Riding a bicycle enables you to develop your " + stuff[5].bold() + " muscles as well as " + stuff[14].bold() + " increase the rate of your "
+            + stuff[6].bold() + " beat.  Bicycle riding is also a " + stuff[1].bold() + " means of " + stuff[2].bold() + " More " + stuff[10].bold() +
+                    " around the world " + stuff[11].bold() + " bicycles than drive " + stuff[9].bold() + ". No matter what kind of " + stuff[3].bold() + " you ride, always be sure to wear a " +
+                    stuff[4].bold() + " on your head and have reflectors on your " + stuff[7].bold() + ", especially if you " + stuff[12].bold() + " at night.";
+        }
+    </script>
+</head>
+<body>
+<h1>An Important MadLib About Bicycle Riding:</h1>
+<br><br>
+<form name="hi">
+    1st Adjective: <input type="text" name="adjective"><br>
+    2nd Adjective: <input type="text" name="adjectivee"><br>
+    1st Singular Noun: <input type="text" name="snoun"><br>
+    2nd Singular Noun: <input type="text" name="snounn"><br>
+    3rd Singular Noun: <input type="text" name="snounnn"><br>
+    1st part of the body: <input type="text" name="pbody"><br>
+    2nd part of the body: <input type="text" name="pbodyy"><br>
+    3rd part of the body: <input type="text" name="pbodyyy"><br>
+    1st plural noun: <input type="text" name="pnoun"><br>
+    2nd plural noun:<input type="text" name="pnounn"><br>
+    3rd plural noun:<input type="text" name="pnounnn"><br>
+    1st verb: <input type="text" name="verb"><br>
+    2nd verb: <input type="text" name="verbb"><br>
+    Verb ending in ING: <input type="text" name="verbing"><br>
+    Adverb: <input type="text" name="adverb"><br><br>
+    <button type="button" onclick=document.getElementById('sounds').innerHTML=array5()>Array Test</button><br>
+    <p id="sounds"></p><br>
+    <!--MadLib story taken from RedKid.net-->
+    <br><p> <img src="img/sponge.gif" alt="spongebob"
+             style="float:right;width:300px;height:200px;">
+    </p>
+</form>
+</body>
+</html>
