@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+<h1>Take a Quiz About Me!</h1>
+<p><img src="img/bobcopy.jpg" alt="bob"
+        style="width:150px;height:100px;"></p>
+<h5>(That's me!!)↑↑↑</h5>
+<form name="quiz">
+
+    <br><br><br>
+    Question 1: How do you spell my first name?<br><br>
+    <input type="text" name="a1">
+    <br><br><br><br>
+    Question 2: How many siblings do I have?<br>
+    <input type="radio" name="a2" value="one">1<br>
+    <input type="radio" name="a2" value="two">2<br>
+    <input type="radio" name="a2" value="three">3<br>
+    <input type="radio" name="a2" value="five">5<br>
+    <br><br>
+    Question 3: Which of the following are places that I've been to?<br>(Mark all that apply)<br>
+    <input type="checkbox" name="a3A" value="texas">Texas<br>
+    <input type="checkbox" name="a3B" value="india">India<br>
+    <input type="checkbox" name="a3C" value="newyork">New York<br>
+    <input type="checkbox" name="a3D" value="africa">Africa<br>
+    <input type="checkbox" name="a3E" value="louis">St. Louis<br>
+    <br><br>
+    Question 4: What is my favorite summer activity?<br>
+    <input type="radio" name="a4" value="popsicles">Eating popsicles<br>
+    <input type="radio" name="a4" value="running">Running<br>
+    <input type="radio" name="a4" value="tv">Watching television<br>
+    <input type="radio" name="a4" value="rc">Riding roller coasters<br>
+    <br><br>
+    Question 5: What is my favorite food?<br>(Mark all that apply)<br>
+    <input type="checkbox" name="a5A" value="mac">Mac and Cheese<br>
+    <input type="checkbox" name="a5B" value="Lettuce">Lettuce<br>
+    <input type="checkbox" name="a5C" value="oc">Orange Chicken<br>
+    <input type="checkbox" name="a5D" value="pizza">Pizza<br>
+    <input type="checkbox" name="a5E" value="bacon">Bacon<br>
+    <br><br>
+    Question 6: How do you spell my last name?<br>
+    <input type="text" name="a6">
+    <br><br>
+    <button type="button" onclick=document.getElementById('sounds').innerHTML=checkAnswers()>CHECK ANSWERS</button>
+    <br>
+    <p id="sounds"></p><br>
+    <br>
+    <br><p> <img src="img/sponge.gif" alt="spongebob"
+                 style="float:right;width:300px;height:200px;">
+    <img src="img/sponge.gif" alt="spongebob"
+         style="float:right;width:300px;height:200px;">
+    <img src="img/sponge.gif" alt="spongebob"
+         style="float:right;width:300px;height:200px;">
+    <img src="img/sponge.gif" alt="spongebob"
+         style="float:right;width:300px;height:200px;">
+    <img src="img/sponge.gif" alt="spongebob"
+         style="float:right;width:300px;height:200px;">
+    <img src="img/sponge.gif" alt="spongebob"
+         style="float:right;width:300px;height:200px;">
+</p>
+</form>
+
+</body>
+</html>
