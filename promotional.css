@@ -1,0 +1,29 @@
+body
+{
+    background-image: linear-gradient(palegreen, steelblue);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+
+}
+ /*use align-center for top navigation bar */
+/*code for less opacity,    filter: opacity(20%);*/
+
+h1
+{
+    background-color:  linear-gradient(steelblue, yellow) ;
+    color: darkblue;
+    text-align: center;
+}
+img
+{
+    float: right;
+}
+h3
+{
+    text-align: center;
+}
+a
+{
+    color: white;
+    background-color: cadetblue;
+}
